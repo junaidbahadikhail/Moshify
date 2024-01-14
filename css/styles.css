@@ -1,3 +1,13 @@
-body{
-    background: gold;
+:root{
+
+    /* colors for our web theme color */
+  
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+
+  /* for our our text - headings and paragraph */
+
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
 }
