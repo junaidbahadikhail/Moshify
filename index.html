@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,28 +19,39 @@
     <meta property="og:image" content="http://moshified.com/moshify.jpg" />
     <meta property="og:url" content="http://moshified.com" />
     <title>Moshify - Go Online for Just $9</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="images/favicon-sm.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon-md.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon-lg.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Bree+Serif&family=Instrument+Serif:ital@1&family=Inter:wght@400;600;700&family=Open+Sans:ital,wght@0,800;1,300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <a aria-label="Moshify" class="nav__brand" href="/"
+          ><img src="images/logo.svg" alt=""
+        /></a>
         <svg class="icon icon--white nav__toggler">
           <use href="images/sprite.svg#menu"></use>
         </svg>
         <ul class="list nav__list collapsible__content">
-          <li class="nav__item"><a href="#">Hosting</a></li>
-          <li class="nav__item"><a href="#">VPS</a></li>
-          <li class="nav__item"><a href="#">Domain</a></li>
-          <li class="nav__item"><a href="#">Pricing</a></li>
+          <li class="nav__item">
+            <a target="_blank" href="https://codewithmosh.com">Hosting</a>
+          </li>
+          <li class="nav__item">
+            <a target="_blank" href="https://codewithmosh.com">VPS</a>
+          </li>
+          <li class="nav__item">
+            <a target="_blank" href="https://codewithmosh.com">Domain</a>
+          </li>
+          <li class="nav__item">
+            <a target="_blank" href="https://codewithmosh.com">Pricing</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -51,9 +62,14 @@
             Cloud Hosting for Pros
           </h1>
           <p class="hero__tagline">
-            Deploy your websites in less than 60 seconds
+            Deploy your websites in less than 60 seconds.
           </p>
-          <a href="" class="btn btn--accent btn--stretched">Get Started</a>
+          <a
+            target="_blank"
+            href="https://codewithmosh.com"
+            class="btn btn--accent btn--stretched"
+            >Get Started</a
+          >
         </header>
         <picture data-aos="zoom-in">
           <source
@@ -69,34 +85,33 @@
       </div>
     </section>
     <section data-aos="zoom-in-up" class="block container block-domain">
-      <header class="class__header">
-        <h2>Starting at $9 per month</h2>
+      <header class="block__header">
+        <h2>Starting at $10 per month</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, soluta?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+          exercitationem?
         </p>
       </header>
       <div class="input-group">
         <input
+          aria-label="Domain"
           type="text"
           class="input"
           placeholder="Enter domain name here..."
         />
         <button class="btn btn--accent">
           <svg class="icon icon--white">
-            <use href="images/sprite.svg#search"></use>
-          </svg>
-
-          
-          Search
+            <use href="images/sprite.svg#search"></use></svg
+          >Search
         </button>
       </div>
       <ul class="list block-domain__prices">
         <li><span class="badge badge--secondary">.com $9</span></li>
         <li>.sg $10</li>
-        <li>.space $14</li>
-        <li>.info $15</li>
-        <li>.net $16</li>
-        <li>.xyz $17</li>
+        <li>.space $11</li>
+        <li>.info $14</li>
+        <li>.net $10</li>
+        <li>.xyz $10</li>
       </ul>
     </section>
     <section data-aos="fade-up" class="block container block-plans">
@@ -114,7 +129,7 @@
               <ul class="list list--tick">
                 <li class="list__item">Unlimited Websites</li>
                 <li class="list__item">Unlimited Bandwidth</li>
-                <li class="list__item">100 GB SS Storage</li>
+                <li class="list__item">100 GB SSD Sotrage</li>
                 <li class="list__item">3 GB RAM</li>
               </ul>
               <button class="btn btn--outline btn--block">Buy Now</button>
@@ -134,14 +149,13 @@
               <ul class="list list--tick">
                 <li class="list__item">Unlimited Websites</li>
                 <li class="list__item">Unlimited Bandwidth</li>
-                <li class="list__item">100 GB SS Storage</li>
+                <li class="list__item">100 GB SSD Sotrage</li>
                 <li class="list__item">3 GB RAM</li>
               </ul>
               <button class="btn btn--outline btn--block">Buy Now</button>
             </div>
           </div>
         </div>
-
         <div class="plan">
           <div class="card card--secondary">
             <header class="card__header">
@@ -155,7 +169,7 @@
               <ul class="list list--tick">
                 <li class="list__item">Unlimited Websites</li>
                 <li class="list__item">Unlimited Bandwidth</li>
-                <li class="list__item">100 GB SS Storage</li>
+                <li class="list__item">100 GB SSD Sotrage</li>
                 <li class="list__item">3 GB RAM</li>
               </ul>
               <button class="btn btn--outline btn--block">Buy Now</button>
@@ -184,7 +198,9 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
-          <a href="#" class="link-arrow">Learn More</a>
+          <a href="https://codewithmosh.com" target="_blank" class="link-arrow"
+            >Learn More</a
+          >
         </div>
         <picture data-aos="zoom-in-left">
           <source
@@ -199,7 +215,7 @@
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content" data-aos="fade-right">
+        <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use href="images/sprite.svg#computer"></use>
@@ -210,9 +226,11 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
-          <a href="#" class="link-arrow">Learn More</a>
+          <a href="https://codewithmosh.com" target="_blank" class="link-arrow"
+            >Learn More</a
+          >
         </div>
-        <picture data-aos="zoom-in-left">
+        <picture>
           <source
             type="image/webp"
             srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
@@ -236,7 +254,9 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
-          <a href="#" class="link-arrow">Learn More</a>
+          <a href="https://codewithmosh.com" target="_blank" class="link-arrow"
+            >Learn More</a
+          >
         </div>
         <picture>
           <source
@@ -251,7 +271,7 @@
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content" data-aos="fade-up">
+        <div class="feature__content" data-aos="fade-left">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use href="images/sprite.svg#clock"></use>
@@ -262,7 +282,9 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
-          <a href="#" class="link-arrow">Learn More</a>
+          <a href="https://codewithmosh.com" target="_blank" class="link-arrow"
+            >Learn More</a
+          >
         </div>
         <picture data-aos="fade-right">
           <source
@@ -302,16 +324,15 @@
                 </svg>
               </div>
               <div class="media__body">
-                <h3 class="media__title">Easy to start & Managed Updates</h3>
+                <h3 class="media__title">Easy Start & Managed Updates</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Cumque magnam accusamus quidem dignissimos quo corporis
-                  veritatis odit iure saepe tempore!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                  vel perspiciatis consequuntur ab.
                 </p>
               </div>
             </div>
           </li>
-          <li></li>
           <li>
             <div class="media">
               <div class="media__image">
@@ -322,14 +343,13 @@
               <div class="media__body">
                 <h3 class="media__title">Staging, GIT & WP-CLI</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Cumque magnam accusamus quidem dignissimos quo corporis
-                  veritatis odit iure saepe tempore!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                  vel perspiciatis consequuntur ab.
                 </p>
               </div>
             </div>
           </li>
-          <li></li>
           <li>
             <div class="media">
               <div class="media__image">
@@ -340,9 +360,9 @@
               <div class="media__body">
                 <h3 class="media__title">Dynamic Caching & More</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Cumque magnam accusamus quidem dignissimos quo corporis
-                  veritatis odit iure saepe tempore!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                  vel perspiciatis consequuntur ab.
                 </p>
               </div>
             </div>
@@ -415,6 +435,7 @@
         </div>
       </div>
     </div>
+
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
@@ -483,7 +504,6 @@
         </div>
       </div>
     </footer>
-
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
